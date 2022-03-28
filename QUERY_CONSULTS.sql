@@ -1,0 +1,1 @@
+SELECT ChecketOut.idclient, ChecketOut.datecheck, Client.idclient, Client.firtsname, Client.secondname, Client.LicensePlate, Client.CirculationCard FROM ChecketOut INNER JOIN Client;
